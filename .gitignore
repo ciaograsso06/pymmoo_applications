@@ -1,0 +1,25 @@
+# Ambientes e caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets e artefatos experimentais
+datasets/
+results/
+*.pth
+*.pt
+
+# Arquivos locais de ambiente e IDE
+.env
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
